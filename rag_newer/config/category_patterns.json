@@ -1,0 +1,156 @@
+{
+  "PWM": [
+    "\\bPWM\\b",
+    "脉宽调制",
+    "(?i)\\bPWM\\b"
+  ],
+  "ADC": [
+    "\\bADC\\b",
+    "模数转换",
+    "(?i)\\bADC\\b|模数转换|模/数转换|模拟/数字"
+  ],
+  "DAC": [
+    "\\bDAC\\b",
+    "数模转换",
+    "(?i)\\bDAC\\b|数模转换"
+  ],
+  "I2C": [
+    "\\bI2C\\b",
+    "IIC",
+    "I²C",
+    "(?i)\\bI2C\\b|I²C|IIC"
+  ],
+  "UART": [
+    "\\bUART\\b",
+    "引脚",
+    "UART",
+    "(?i)\\bUART\\b|串口|异步串行"
+  ],
+  "SPI": [
+    "\\bSPI\\b",
+    "(?i)\\bSPI\\b"
+  ],
+  "CAN": [
+    "\\bCAN\\b",
+    "(?i)\\bCAN\\b"
+  ],
+  "USB": [
+    "\\bUSB\\b",
+    "(?i)\\bUSB\\b"
+  ],
+  "LCD": [
+    "\\bLCD\\b",
+    "液晶",
+    "(?i)\\bLCD\\b|液晶|液晶驱动"
+  ],
+  "DMA": [
+    "\\bDMA\\b",
+    "(?i)\\bDMA\\b"
+  ],
+  "RTC": [
+    "\\bRTC\\b",
+    "实时时钟",
+    "(?i)\\bRTC\\b|实时时钟"
+  ],
+  "BLE": [
+    "\\bBLE\\b",
+    "蓝牙",
+    "(?i)\\bBLE\\b|蓝牙"
+  ],
+  "WIFI": [
+    "\\bWiFi\\b",
+    "Wi-Fi",
+    "无线网络",
+    "(?i)\\bWiFi\\b|无线网络"
+  ],
+  "Memory": [
+    "\\bMemory\\b",
+    "存储",
+    "Flash",
+    "RAM",
+    "EEPROM",
+    "Flash|RAM|存储器|存储|EEPROM",
+    "数据空间"
+  ],
+  "WDT": [
+    "\\bWDT\\b",
+    "看门狗",
+    "复位",
+    "看门狗|WDT"
+  ],
+  "GPIO": [
+    "\\bGPIO\\b",
+    "通用输入输出",
+    "GPIO|通用输入输出|I/O口"
+  ],
+  "Timer": [
+    "\\bTimer\\b",
+    "定时器",
+    "定时器|Timer|计数器"
+  ],
+  "Interrupt_system": [
+    "\\bInterrupt\\b",
+    "中断系统",
+    "中断",
+    "中断|Interrupt|中断系统"
+  ],
+  "System_clock": [
+    "\\bSystem clock\\b",
+    "系统时钟",
+    "时钟",
+    "时钟系统|系统时钟|振荡器|晶振|PLL"
+  ],
+  "Power": [
+    "\\bPower\\b",
+    "LVD",
+    "电源",
+    "供电",
+    "电源|供电|LDO|电压|低电压检测|LVD"
+  ],
+  "Low_power_mode": [
+    "\\bLow power\\b",
+    "低功耗",
+    "省电",
+    "TMC",
+    "省电|低功耗|STOP模式|IDLE模式|休眠|唤醒"
+  ],
+  "Touch": [
+    "\\bTouch\\b",
+    "触摸",
+    "触摸|Touch|触摸按键"
+  ],
+  "Electrical_parameters": [
+    "\\bElectrical\\b",
+    "电气特性",
+    "参数",
+    "电气特性|极限参数|直流电气|交流电气|ADC电气"
+  ],
+  "Package_type": [
+    "\\bPackage\\b",
+    "封装",
+    "封装|Package|管脚|引脚"
+  ],
+  "CPU": [
+    "\\bCPU\\b",
+    "中央处理器",
+    "核",
+    "CPU|内核|8051|指令集"
+  ],
+  "Routine": [
+    "\\bRoutine\\b",
+    "示例",
+    "例程",
+    "例程|程序|代码|示例"
+  ],
+  "Overview": [
+    "\\bOverview\\b",
+    "概述",
+    "介绍",
+    "概述|介绍|简介|功能描述"
+  ],
+  "Other":[
+    "程序下载",
+    "在线仿真",
+    "LED"
+  ]
+}

@@ -1,0 +1,11 @@
+.venv/
+.cache/
+__pycache__/
+*.py[cod]
+*.log
+.env
+rag_newer/config/db_config.local.json
+rag_newer/import_progress.local.json
+output/
+tmp/
+

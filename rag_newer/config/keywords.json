@@ -1,0 +1,92 @@
+{
+  
+  "chips": {
+    "exact": {
+      "CA51F351P4": ["\\bCA51F351P4\\b"],
+      "CA51F252L3": ["\\bCA51F252L3\\b"],
+      "CA51F251L2": ["\\bCA51F251L2\\b"],
+      "CA51F251L3": ["\\bCA51F251L3\\b"],
+      "CA51F252L2": ["\\bCA51F252L2\\b"],
+      "CA51F253L2": ["\\bCA51F253L2\\b"],
+      "CA51F253L3": ["\\bCA51F253L3\\b"],
+      "CA51F351S3": ["\\bCA51F351S3\\b"],
+      "CA51F351S6": ["\\bCA51F351S6\\b"],
+      "CA51F352S3": ["\\bCA51F352S3\\b"],
+      "CA51F3N2": ["\\bCA51F3N2\\b"],
+      "CA51F352P4": ["\\bCA51F352P4\\b"],
+      "CA51F351S4": ["\\bCA51F351S4\\b"],
+      "CA51F351P6": ["\\bCA51F351P6\\b"],
+      "CA51F352P6": ["\\bCA51F352P6\\b"],
+      "CA51F352S4": ["\\bCA51F352S4\\b"],
+      "CA51F352S6": ["\\bCA51F352S6\\b"],
+      "CA51F412L2": ["\\bCA51F412L2\\b"],
+      "CA51F452L2": ["\\bCA51F452L2\\b"],
+      "CA51F452S6": ["\\bCA51F452S6\\b"],
+      "CA52F412S6": ["\\bCA52F412S6\\b"],
+      "MiAi-6030A6": ["\\b(?:MiAi|MJ)-6030A6\\b"],
+      "MiAi-6031A6": ["\\b(?:MiAi|MJ)-6031A6\\b"]
+    },
+    "fuzzy": {
+      "CA51F3": {
+        "pattern": "CA51F3",
+        "chips": [
+          "CA51F351S3", "CA51F351S6", "CA51F352S3", "CA51F3N2",
+          "CA51F352P4", "CA51F351S4", "CA51F351P6", "CA51F352P6",
+          "CA51F352S4", "CA51F352S6"
+        ]
+      },
+      "CA51F2": {
+        "pattern": "CA51F2",
+        "chips": [
+          "CA51F252L3", "CA51F251L2", "CA51F251L3",
+          "CA51F252L2", "CA51F253L2", "CA51F253L3"
+        ]
+      },
+      "CA51F4": {
+        "pattern": "CA51F4",
+        "chips": ["CA51F412L2", "CA51F452L2", "CA51F452S6"]
+      },
+      "CA52F4": {
+        "pattern": "CA52F4",
+        "chips": ["CA52F412S6"]
+      },
+      "MiAi-6030": {
+        "pattern": "(?:MiAi|MJ)-6030",
+        "chips": ["MiAi-6030A6"]
+      },
+      "MiAi-6031": {
+        "pattern": "(?:MiAi|MJ)-6031",
+        "chips": ["MiAi-6031A6"]
+      }
+    }
+  },
+  "topics": {
+    "PWM": ["(PWM|脉宽调制|占空比|互补输出|死区)"],
+    "ADC": ["(ADC|模数转换|A/D|模拟数字)"],
+    "DAC": ["(DAC|数模转换|D/A|数字模拟)"],
+    "I2C": ["(I2C|IIC|I²C)"],
+    "UART": ["(UART|串口|波特率|串行通信)"],
+    "SPI": ["(SPI|串行外设接口)"],
+    "CAN": ["(CAN|CAN总线|CAN通信|控制器局域网)"],
+    "USB": ["(USB|USB设备|USB主机|USB OTG)"],
+    "LCD": ["(LCD|LED驱动|显示|段码|点阵)"],
+    "DMA": ["(DMA|直接存储器访问)"],
+    "RTC": ["(RTC|实时时钟|实时钟|实时计数器)"],
+    "BLE": ["(BLE|蓝牙|低功耗蓝牙|Bluetooth|BLE 5)"],
+    "WIFI": ["(WiFi|WIFI|Wi-Fi|802.11|无线局域网)"],
+    "Memory": ["(存储器|Flash|RAM|EEPROM|ROM|闪存|内存|Memory)"],
+    "WDT": ["(复位|Reset|上电复位|看门狗|WDT)"],
+    "GPIO": ["(GPIO|引脚|输入输出|端口配置)"],
+    "Timer": ["(定时器|Timer|计时器|计数器)"],
+    "Interrupt_system": ["(中断|中断系统|中断配置|中断向量|Interrupt)"],
+    "System_clock": ["(时钟|振荡器|PLL|晶振|RC振荡|System clock)"],
+    "Power": ["(电源|LDO|DCDC|PMU|充电|电池|供电|稳压|Power)"],
+    "Low_power_mode": ["(功耗|低功耗|IDLE|STOP|休眠|睡眠|待机|Low power)"],
+    "Touch": ["(触摸|Touch Key|触控|Touch)"],
+    "Electrical_parameters": ["(电气参数|电气特性|绝对最大额定值|电压|电流|功耗|Electrical)"],
+    "Package_type": ["(封装|package|QFN|SOP|SOT|TSSOP|LQFP|DIP|SIP|引脚数量|引脚|封装形式|封装类型|pin count|package type)"],
+    "CPU": ["(CPU|处理器|内核|中央处理器)"],
+    "Routine": ["(例程|代码|初始化|程序示例|控制方法|Routine)"],
+    "Overview": ["(概览|概述|overview|summary|简介)"]
+  }
+}
